@@ -1,0 +1,16 @@
+li {
+    width: 200px;
+    border: 1px solid blue;
+    padding: 3px;
+    margin-top: 5px;
+    list-style-position: inside;
+    cursor: pointer;
+}
+li:hover {
+    background: green;
+    color: white;
+}
+li:hover+li+li{
+    background: red;
+    color: white;
+}
