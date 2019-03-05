@@ -19,33 +19,33 @@ div h2, div p{}
 /* Задание 10 */
 .test{}
 /* Задание 11 */
-.test p{}
+p.test{}
 /* Задание 12 */
 .test, .hello{}
 /* Задание 13 */
-.test p, .hello h2{}
+p.test, h2.hello{}
 /* Задание 14 */
-.test p, .hello{}
+p.test, .hello{}
 /* Задание 15 */
-#hello div .test p{}
+#hello p.test{}
 /* Задание 16 */
-.hello .test p{}
+.hello p.test{}
 /* Задание 17 */
-.hello div .test p{}
+div.hello p.test{}
 /* Задание 18 */
 .test h2{}
 /* Задание 19 */
 .test.hello{}
 /* Задание 20 */
-.test.hello p{}
+p.test.hello{}
 /* Задание 21 */
-.test.hello.eee h2{}
+h2.test.hello.eee{}
 /* Задание 22 */
 p > i{}
 /* Задание 23 */
 ul > li{}
 /* Задание 24 */
-p > a, .test a{} 
+p > a, a.test{} 
 /* Задание 25 */
 b + i{}
 /* Задание 26 */
